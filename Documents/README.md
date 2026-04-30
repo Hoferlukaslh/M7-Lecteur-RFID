@@ -1,0 +1,1 @@
+CdC et Journal, Documentation technique du projet (Table de communication décrivant le protocole PLC, les endpoints de l'API HTTP, et la cartographie d'optimisation mémoire)

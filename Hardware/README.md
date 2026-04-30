@@ -1,0 +1,1 @@
+Dossier électronique contenant les schémas de principe, le routage PCB (fichiers Gerber) et la nomenclature (BOM).

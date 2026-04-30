@@ -13,6 +13,20 @@ Le lecteur utilise une architecture de communication hybride pour s'adapter aux 
 
 - Communication API (Wi-Fi) : De manière indépendante, le système interagit avec un serveur Node-RED via des requêtes API HTTP pour mettre à jour l'emplacement des palettes en temps réel dans une base de données. 
 
+```mermaid
+flowchart TD
+    %% Définition des nœuds
+    NR[Node-RED]
+    DB[(BDD)]
+    M7[Projet M7]
+    PLC[Automate]
+
+    %% Définition des liens et des étiquettes
+    NR --> DB
+    NR <-.->|"Requête API HTTP<br>(WiFi)<br>MàJ emplacement <br>palettes"| M7
+    PLC -->|"Communication<br>pour ordres<br>(désactivable)"| M7
+```
+
 ### Spécifications Matérielles
 Le dispositif est conçu pour fonctionner de manière autonome dans un environnement industriel.
 

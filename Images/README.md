@@ -1,0 +1,1 @@
+Dossier contenant des images utilisés dans le projet.

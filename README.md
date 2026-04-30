@@ -94,3 +94,4 @@ L'arborescence de ce projet est divisée selon les livrables suivants :
 | [Mechanical](./Firmware/) | Fichiers 3D (STL/STEP) pour l'impression du boîtier de protection. |
 | [Firmware](./Firmware/) | Code source documenté du microcontrôleur, incluant la pile de communication et la librairie RFID. |
 | [Documents](./Documents/) | CdC et Journal, Documentation technique du projet (Table de communication décrivant le protocole PLC, les endpoints de l'API HTTP, et la cartographie d'optimisation mémoire) |
+| [Images](./Images/) | Dossier contenant des images utilisés dans le projet. |

@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "RFID_Symboles") (type "KiCad") (uri "${KIPRJMOD}/LibrairiesExternes/RFID_Symboles.kicad_sym") (options "") (descr ""))
+)

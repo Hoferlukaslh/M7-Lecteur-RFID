@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "RFID_Empreintes") (type "KiCad") (uri "${KIPRJMOD}/LibrairiesExternes/RFID_Empreintes.pretty") (options "") (descr ""))
+)

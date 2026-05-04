@@ -470,7 +470,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "RFID_Symboles"
+    ]
   },
   "meta": {
     "filename": "RFID_ProjetKicad.kicad_pro",
@@ -645,7 +647,7 @@
         "uuid": "c023b547-4038-4db5-a2bd-d45db42a6a10"
       }
     ],
-    "used_designators": "U1-2",
+    "used_designators": "U1-4,PS1,S1,J1",
     "variants": []
   },
   "sheets": [

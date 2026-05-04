@@ -1,5 +1,15 @@
 # Fichiers non-synchronisés
 
+# Bureautique
+*.tmp
+~$*.doc*
+~$*.dot*
+Backup of *.doc*
+~$*.xls*
+*.xlk
+~$*.ppt*
+
+
 # vsCode
 .vscode/
 .vs/

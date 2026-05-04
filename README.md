@@ -69,11 +69,8 @@ Une bibliothèque logicielle est intégrée pour gérer la mémoire restreinte d
 | <img src="Images/Logos_Icones/OnlyOffice.svg" width="48"/> | [**OnlyOffice**](https://www.onlyoffice.com) | 9.3.1 | Suite bureautique utilisée pour la rédaction et l’édition des documents du projet (DOCX, XLSX). | AGPL-3.0 |
 | <img src="Images/Logos_Icones/DrawIo.svg" width="48"/> | [**Draw.io**](https://github.com/jgraph/drawio) | 29.3.6 | Outil de conception de diagrammes. Utilisé pour la conception UML. | Apache 2.0 |
 | <img src="Images/Logos_Icones/codium.svg" width="48"/> | [**VSCodium**](https://vscodium.com/) | v1.116.02821 | Editeur de texte avec extension (IDE) | MIT |
+| <img src="Images/Logos_Icones/arduino.svg" width="48"/> | [**Arduino IDE**](https://www.arduino.cc/en/software/) | 2.3.8 | IDE pour framework arduino (C++) | AGPL-3.0 |
 
-#### Extensions IDE
-| Logo | Extension | Version | Utilité | Licence |
-| :---: | :--- | :--- | :--- | --- |
-| <img src="Images/Logos_Icones/platformio.png" width="48"/> | PlatformIO | 3.3.4-codium | IDE pour l'ESP32 avec framework arduino (C++) | Apache-2.0 license |
 
 ### Modèle de Données et Optimisation
 La contrainte matérielle majeure est la limite de 106 octets par tag. Une optimisation des données est indispensable.

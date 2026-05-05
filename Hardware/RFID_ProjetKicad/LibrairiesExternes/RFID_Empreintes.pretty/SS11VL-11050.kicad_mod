@@ -1,0 +1,262 @@
+(footprint "SS11VL-11050"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Current-compensated Chokes, Schaffner, RN204-04, 9.0mmx14.0mm https://www.schaffner.com/products/download/product/datasheet/rn-series-common-mode-chokes-new/")
+	(tags "chokes schaffner tht")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "62011a5e-0baf-4e95-ba87-70b0677f24a4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SS11VL-11050"
+		(at 3.8 13.5 0)
+		(layer "F.Fab")
+		(uuid "b82c82af-d26a-4828-bda6-e7680027a35d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "376632a1-4641-496b-ba26-c63c02724598")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2048bdd5-d660-455d-a6d8-41d816f85047")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "KiLib_Generator" "inductor/THT"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "dc5ba35f-ecbb-4db5-b64f-3522720bb253")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.5 -2.5)
+		(end -1.5 0.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1f203bad-aa36-41aa-8d0e-d80ce5716014")
+	)
+	(fp_line
+		(start -1.5 -2.5)
+		(end -0.5 -2.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f66e93b3-5a4e-4a98-b6b0-6aa0e8f3dfc6")
+	)
+	(fp_line
+		(start -0.82 -2.12)
+		(end 12 -2.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bc9112b1-6c2f-4e55-98ca-24f99672e046")
+	)
+	(fp_line
+		(start -0.82 1.5)
+		(end -0.82 8.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0fe6605b-f0ae-4d59-825a-8417e0c980d3")
+	)
+	(fp_line
+		(start 12 1.5)
+		(end 12 8.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "53d27439-8349-4500-94e4-a566e8baaf6f")
+	)
+	(fp_line
+		(start 12 12.12)
+		(end -0.82 12.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4d47f869-b1d6-4d58-9eb9-290ac55e2be1")
+	)
+	(fp_rect
+		(start -1.25 -2.25)
+		(end 12 12.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "bc89c1ff-fca5-44b7-b658-b07f616d85ec")
+	)
+	(fp_line
+		(start -0.7 -2)
+		(end 12 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "053396f2-3d8a-48f5-8044-9ba8a3008100")
+	)
+	(fp_line
+		(start -0.7 -1)
+		(end -0.7 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d7c9e4e4-26a6-4e9f-ad19-c565fe170edd")
+	)
+	(fp_line
+		(start -0.7 1)
+		(end 0.3 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3bbf6bd0-e345-4cbe-880d-bce2702bf726")
+	)
+	(fp_line
+		(start -0.7 12)
+		(end -0.7 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "175f8246-2635-4788-b551-c19a659f58e6")
+	)
+	(fp_line
+		(start 0.3 0)
+		(end -0.7 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e51b1ad5-7f9b-4684-aaf0-53aea7dcaa22")
+	)
+	(fp_line
+		(start 12 -2)
+		(end 12 12)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f2cd74d3-f4dd-4f9f-893f-03db17bcc091")
+	)
+	(fp_line
+		(start 12 12)
+		(end -0.7 12)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ca514924-8769-45b6-8265-d6ea221ce346")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 3.8 5 0)
+		(layer "F.Fab")
+		(uuid "250f0843-a7b5-4e73-9045-f0924c8a48c4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 2 2)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "67438a48-82d4-4d61-bc00-8d54996e64db")
+	)
+	(pad "2" thru_hole circle
+		(at 0 13)
+		(size 2 2)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ae382885-2fcc-4ff3-976c-5abebc5e574f")
+	)
+	(pad "3" thru_hole circle
+		(at 10 13)
+		(size 2 2)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "489ce362-d7d1-49ff-a3ef-22f66f7f6643")
+	)
+	(pad "4" thru_hole circle
+		(at 10 0)
+		(size 2 2)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9814e068-41d9-48bf-b6e3-c301d1091ad8")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/LibrairiesExternes/RFID_3D/SS11VL-11050.step"
+		(offset
+			(xyz 5 -6.5 12.7)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+)

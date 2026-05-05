@@ -1,0 +1,217 @@
+(footprint "RV_Disc_D12mm_W4.7mm_P7.5mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Varistor, diameter 12mm, width 4.7mm, pitch 7.5mm")
+	(tags "varistor SIOV")
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3ffee8a3-4613-4167-9504-f6e71f160a0c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "df9be1dd-4126-493b-ad45-a92230c2be85")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "RV_Disc_D12mm_W4.7mm_P7.5mm"
+		(at 4 -2.35 0)
+		(layer "F.Fab")
+		(uuid "d6be681a-acc4-4bf3-b8d3-19b32569e128")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Reference" "REF**"
+		(at -0.25 4.35 0)
+		(layer "F.SilkS")
+		(uuid "81d7cdce-a9d5-4508-bcaf-91dbae5f4b59")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -6.25 -1.35)
+		(end -6.25 3.35)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c2039e86-5f2c-47c1-9571-944b1b5b5956")
+	)
+	(fp_line
+		(start -6.25 -1.35)
+		(end 16 -1.35)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "293cc5bc-99fe-472b-bab3-1cf4299c0a06")
+	)
+	(fp_line
+		(start -6.25 3.35)
+		(end 16 3.35)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "439d04dd-62f7-48f7-8654-3b4bd1a5a025")
+	)
+	(fp_line
+		(start 16.25 -1.35)
+		(end 16.25 3.35)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "955a4791-dd85-4652-ba0d-c0e572b25f89")
+	)
+	(fp_line
+		(start -6.5 -1.6)
+		(end -6.5 3.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "57df7f37-6808-43ea-8a5e-d64451db52b6")
+	)
+	(fp_line
+		(start -6.5 -1.6)
+		(end 16.5 -1.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cc2cfbad-1214-4c00-8087-761fdba31c19")
+	)
+	(fp_line
+		(start -6.5 3.6)
+		(end 16.5 3.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3ba904c2-e88a-4fde-bf19-a07ed610e9ec")
+	)
+	(fp_line
+		(start 16.5 -1.6)
+		(end 16.5 3.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7b001d2d-695a-46b1-b8e2-8bce6f1a88fa")
+	)
+	(fp_line
+		(start -6.25 -1.35)
+		(end -6.25 3.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "834c8e6a-1a9a-456c-9dfb-54c639435ea0")
+	)
+	(fp_line
+		(start -6.25 -1.35)
+		(end 5.75 -1.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ff62191b-b15b-40e1-a58d-ddc985972a53")
+	)
+	(fp_line
+		(start -6.25 3.35)
+		(end 5.75 3.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c0c8b037-53f8-42f8-92e0-ad52ead0ca3f")
+	)
+	(fp_line
+		(start 16.25 -1.35)
+		(end 16.25 3.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "13a51764-c92e-491b-af4e-0d836554b372")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 3.75 1 0)
+		(layer "F.Fab")
+		(uuid "a1e0aa12-55ba-49bf-99e7-08d8a652d336")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 2.3)
+		(size 1.8 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f5abf785-e283-46a5-9c82-90944c2aea02")
+	)
+	(pad "2" thru_hole circle
+		(at 10 0)
+		(size 1.8 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3325a042-057c-4df1-9d52-ed21cdb11ce6")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/LibrairiesExternes/RFID_3D/MOV-20D470KTR.STEP"
+		(offset
+			(xyz 5 -1 4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -6)
+		)
+	)
+)

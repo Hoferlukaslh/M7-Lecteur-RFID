@@ -469,7 +469,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "RFID_Empreintes"
+    ],
     "pinned_symbol_libs": [
       "RFID_Symboles"
     ]
@@ -647,7 +649,7 @@
         "uuid": "c023b547-4038-4db5-a2bd-d45db42a6a10"
       }
     ],
-    "used_designators": "RV1,FL1,#PWR2,#PWR15,#PWR18,L1-2,22µH1,C1-4,D2-3,F1",
+    "used_designators": "PS1-2,C5",
     "variants": []
   },
   "sheets": [

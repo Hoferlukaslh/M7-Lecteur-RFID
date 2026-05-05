@@ -1,0 +1,174 @@
+(footprint "WE-FI_7447060"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -11.985 0)
+		(layer "F.SilkS")
+		(uuid "c588b0d3-171f-4cb4-a291-23cebbbfa5a8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "WE-FI_7447060"
+		(at 4.655 11.885 0)
+		(layer "F.Fab")
+		(uuid "0025682b-7e92-430d-83f3-ec5d87749f86")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dab13317-5c8d-488a-91b0-bb1667d219af")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1bbe9d26-0cb5-43d6-b002-03a7726dc904")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -5.6 -10.6)
+		(end 5.6 -10.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d1542e01-5f71-4486-b1fc-cc4d141d80a0")
+	)
+	(fp_line
+		(start -5.6 10.6)
+		(end -5.6 -10.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2fff6b22-e54c-4c9d-8ef5-d6d5b9145288")
+	)
+	(fp_line
+		(start 5.6 -10.6)
+		(end 5.6 10.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "686a18ae-e08d-4b3f-8d17-6d8c5280308b")
+	)
+	(fp_line
+		(start 5.6 10.6)
+		(end -5.6 10.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1ecbdf88-3a47-48e0-9b4c-c14409f9bc6e")
+	)
+	(fp_poly
+		(pts
+			(xy -5.8 -10.8) (xy 5.8 -10.8) (xy 5.8 10.8) (xy -5.8 10.8)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.CrtYd")
+		(uuid "b6033f00-3e49-40d6-8e84-30d663596256")
+	)
+	(fp_line
+		(start -5.5 -10.5)
+		(end 5.5 -10.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "720d00d2-a91e-4784-9d5f-f2e5ad9d8f31")
+	)
+	(fp_line
+		(start -5.5 10.5)
+		(end -5.5 -10.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a3f5ed06-b97f-4291-8fe1-9fada96606d1")
+	)
+	(fp_line
+		(start 5.5 -10.5)
+		(end 5.5 10.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "692ce4ae-00ba-4acc-9943-f1123ec4dabe")
+	)
+	(fp_line
+		(start 5.5 10.5)
+		(end -5.5 10.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "729fb47b-8ce8-4345-9090-2f411a1b552b")
+	)
+	(pad "1" thru_hole circle
+		(at -4.5 0)
+		(size 1.308 1.308)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "71c37ed2-e871-4c6c-a932-73c5c4ba6923")
+	)
+	(pad "2" thru_hole circle
+		(at 4.5 0)
+		(size 1.308 1.308)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "64326a12-6214-41fa-97b6-b6112eaa6bd9")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/LibrairiesExternes/RFID_3D/Toroidal inductor_wireDia2mm_44.6x27x44.6mm.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 0.36 0.4 0.4)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

@@ -215,6 +215,11 @@
             <mxPoint x="360" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="XA4V6-m6RkLuk78qkeuN-1" connectable="0" parent="1XxGScLCRJQjzL8Zbv9Y-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="3v3" vertex="1">
+          <mxGeometry relative="1" x="0.492" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

@@ -9342,7 +9342,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RFID_Empreintes:MODULE_DM-OLED096-636"
 			(at 30.48 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -9640,7 +9640,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RFID_Empreintes:PTC"
 			(at 62.23 111.76 0)
 			(hide yes)
 			(show_name no)

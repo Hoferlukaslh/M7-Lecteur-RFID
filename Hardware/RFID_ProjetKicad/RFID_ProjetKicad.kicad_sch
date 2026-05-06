@@ -9,6 +9,8 @@
 		(date "2026-05-04")
 		(rev "v0.1a")
 		(company "École Supérieur Technique")
+		(comment 1 "Hofer Lukas")
+		(comment 2 "TINF2")
 	)
 	(lib_symbols
 		(symbol "Device:C_Polarized_Small"

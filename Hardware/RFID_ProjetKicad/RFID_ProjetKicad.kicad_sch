@@ -4711,16 +4711,6 @@
 		)
 		(uuid "2a2fa76b-75fb-4cb7-8d8c-25a543d5e13d")
 	)
-	(text "P = 3.3w / 0.7 = 4.7w\n7V\nI=P/U = 4.7 / 7 = 0.67 A\n"
-		(exclude_from_sim no)
-		(at -15.494 177.292 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "3e67638e-9908-4ae1-a9b1-a0bf68e88862")
-	)
 	(text "Lecteur RFID"
 		(exclude_from_sim no)
 		(at 141.478 78.74 0)
@@ -4740,16 +4730,6 @@
 			)
 		)
 		(uuid "5992746b-e33a-42c4-8367-4cc557baef1e")
-	)
-	(text "3.3v\n1A\n\n3.3W"
-		(exclude_from_sim no)
-		(at 101.854 219.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "64f249f5-8879-488e-8088-914014ca35f5")
 	)
 	(text "Affichage / Diag."
 		(exclude_from_sim no)
@@ -4958,6 +4938,12 @@
 		(uuid "8777f797-ed8e-4a22-acbf-335adc36eb04")
 	)
 	(junction
+		(at 137.16 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97aed183-758e-4f5d-af38-c4e4edfbd92a")
+	)
+	(junction
 		(at 26.67 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5044,10 +5030,6 @@
 	(no_connect
 		(at 173.99 36.83)
 		(uuid "293e42c8-5886-4da7-b869-292b36b2b7ca")
-	)
-	(no_connect
-		(at 139.7 96.52)
-		(uuid "6891fbc4-8373-44f3-851e-aad66467d920")
 	)
 	(wire
 		(pts
@@ -5171,6 +5153,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 91.44) (xy 139.7 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b350569-5c0b-465b-b8f3-c96c383d59a2")
+	)
+	(wire
+		(pts
 			(xy 68.58 40.64) (xy 68.58 41.91)
 		)
 		(stroke
@@ -5241,6 +5233,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 96.52) (xy 139.7 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2846d000-1ebb-4829-ace0-6ab784175833")
+	)
+	(wire
+		(pts
 			(xy 262.89 80.01) (xy 261.62 80.01)
 		)
 		(stroke
@@ -5248,16 +5250,6 @@
 			(type default)
 		)
 		(uuid "286f6d2c-a46c-461d-a509-681640d14c24")
-	)
-	(wire
-		(pts
-			(xy 139.7 104.14) (xy 128.27 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d2b1cb5-ee7d-4509-bb78-306b9a46a259")
 	)
 	(wire
 		(pts
@@ -5601,6 +5593,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 36.83) (xy 128.27 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ef571d3-ba18-4370-a04a-3f142b6c3604")
+	)
+	(wire
+		(pts
 			(xy 262.89 53.34) (xy 275.59 53.34)
 		)
 		(stroke
@@ -5668,16 +5670,6 @@
 			(type default)
 		)
 		(uuid "80dc73da-18ca-4e61-b488-3f1c6114af1b")
-	)
-	(wire
-		(pts
-			(xy 128.27 36.83) (xy 135.89 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "839614c7-2d32-4193-b694-9b2d78eab64d")
 	)
 	(wire
 		(pts
@@ -5981,6 +5973,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 36.83) (xy 128.27 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3eaa3ad-c1ae-4f77-b607-eeade1faa88b")
+	)
+	(wire
+		(pts
 			(xy 232.41 139.7) (xy 232.41 146.05)
 		)
 		(stroke
@@ -6008,16 +6010,6 @@
 			(type default)
 		)
 		(uuid "c8137a04-f9f0-4b78-b744-86e5eadc3752")
-	)
-	(wire
-		(pts
-			(xy 128.27 36.83) (xy 128.27 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca530bf2-01e7-4022-91b1-ccf47da45d56")
 	)
 	(wire
 		(pts
@@ -6071,7 +6063,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 88.9) (xy 139.7 91.44)
+			(xy 137.16 88.9) (xy 137.16 91.44)
 		)
 		(stroke
 			(width 0)
@@ -6088,6 +6080,16 @@
 			(type default)
 		)
 		(uuid "d1ce95ed-7ac0-41d9-8689-2b4a18c709ec")
+	)
+	(wire
+		(pts
+			(xy 137.16 104.14) (xy 137.16 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d263a8e1-9c77-434b-a233-bb77506d81e8")
 	)
 	(wire
 		(pts
@@ -6208,6 +6210,16 @@
 			(type default)
 		)
 		(uuid "e605ab6a-3711-44bd-a817-2b4c1c9f88b7")
+	)
+	(wire
+		(pts
+			(xy 139.7 104.14) (xy 137.16 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e69dcbee-7cc6-403b-9ad6-1ab0fa13b920")
 	)
 	(wire
 		(pts
@@ -6381,7 +6393,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 139.7 88.9 0)
+		(at 137.16 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6392,7 +6404,7 @@
 		(fields_autoplaced yes)
 		(uuid "05a3e84a-25d9-47d5-9364-1a467a570914")
 		(property "Reference" "#PWR010"
-			(at 139.7 92.71 0)
+			(at 137.16 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6403,7 +6415,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 139.7 83.82 0)
+			(at 137.16 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6413,7 +6425,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 88.9 0)
+			(at 137.16 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6424,7 +6436,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 88.9 0)
+			(at 137.16 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6435,7 +6447,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 139.7 88.9 0)
+			(at 137.16 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8084,7 +8096,7 @@
 				)
 			)
 		)
-		(property "Value" "CEG006900"
+		(property "Value" "RFID-RC522"
 			(at 157.48 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)

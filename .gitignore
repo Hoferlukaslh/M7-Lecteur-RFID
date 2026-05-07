@@ -35,6 +35,7 @@ Backup of *.doc*
 ~$*.xls*
 *.xlk
 ~$*.ppt*
+.~lock.*#
 
 
 # vsCode

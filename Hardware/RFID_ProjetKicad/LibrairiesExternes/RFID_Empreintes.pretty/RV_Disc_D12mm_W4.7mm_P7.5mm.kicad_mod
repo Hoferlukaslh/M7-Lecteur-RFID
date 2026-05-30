@@ -5,12 +5,34 @@
 	(layer "F.Cu")
 	(descr "Varistor, diameter 12mm, width 4.7mm, pitch 7.5mm")
 	(tags "varistor SIOV")
+	(property "Reference" "REF**"
+		(at -0.25 4.35 0)
+		(layer "F.SilkS")
+		(uuid "553edc8a-4a08-4cec-b88b-b42047c5cbc0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "RV_Disc_D12mm_W4.7mm_P7.5mm"
+		(at 4 -2.35 0)
+		(layer "F.Fab")
+		(uuid "41778792-0311-4561-be32-0dee6d24e57b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "3ffee8a3-4613-4167-9504-f6e71f160a0c")
+		(uuid "f60d6216-a6f4-43ee-8066-0ad6ede9e5d8")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -23,32 +45,10 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "df9be1dd-4126-493b-ad45-a92230c2be85")
+		(uuid "9c7092bf-6585-490b-8dd0-8d2fe2c99976")
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Value" "RV_Disc_D12mm_W4.7mm_P7.5mm"
-		(at 4 -2.35 0)
-		(layer "F.Fab")
-		(uuid "d6be681a-acc4-4bf3-b8d3-19b32569e128")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Reference" "REF**"
-		(at -0.25 4.35 0)
-		(layer "F.SilkS")
-		(uuid "81d7cdce-a9d5-4508-bcaf-91dbae5f4b59")
-		(effects
-			(font
-				(size 1 1)
 				(thickness 0.15)
 			)
 		)
@@ -63,7 +63,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "c2039e86-5f2c-47c1-9571-944b1b5b5956")
+		(uuid "548ef428-f7c9-4ea4-9c3f-2ea6e3666d7e")
 	)
 	(fp_line
 		(start -6.25 -1.35)
@@ -73,7 +73,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "293cc5bc-99fe-472b-bab3-1cf4299c0a06")
+		(uuid "4e71d840-5b79-47ef-ab16-922283aed5fe")
 	)
 	(fp_line
 		(start -6.25 3.35)
@@ -83,7 +83,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "439d04dd-62f7-48f7-8654-3b4bd1a5a025")
+		(uuid "dcd16ca9-af2d-4bef-8066-21382e3ef7cb")
 	)
 	(fp_line
 		(start 16.25 -1.35)
@@ -93,7 +93,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "955a4791-dd85-4652-ba0d-c0e572b25f89")
+		(uuid "3ace1334-2bc6-4ce8-9bd1-908e22da8b84")
 	)
 	(fp_line
 		(start -6.5 -1.6)
@@ -103,7 +103,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "57df7f37-6808-43ea-8a5e-d64451db52b6")
+		(uuid "056bcc7a-5662-4e5e-ad33-ab0e10d75e9e")
 	)
 	(fp_line
 		(start -6.5 -1.6)
@@ -113,7 +113,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "cc2cfbad-1214-4c00-8087-761fdba31c19")
+		(uuid "5fa29af0-e5c2-40c8-899f-11af673c0ebd")
 	)
 	(fp_line
 		(start -6.5 3.6)
@@ -123,7 +123,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "3ba904c2-e88a-4fde-bf19-a07ed610e9ec")
+		(uuid "6fa7b53f-7002-4236-9061-9185d38c23f3")
 	)
 	(fp_line
 		(start 16.5 -1.6)
@@ -133,7 +133,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "7b001d2d-695a-46b1-b8e2-8bce6f1a88fa")
+		(uuid "a6543d62-f376-41b5-a9a3-290b49e657c0")
 	)
 	(fp_line
 		(start -6.25 -1.35)
@@ -143,7 +143,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "834c8e6a-1a9a-456c-9dfb-54c639435ea0")
+		(uuid "06a454fa-72ab-41aa-9eba-f4af8b8e2dd4")
 	)
 	(fp_line
 		(start -6.25 -1.35)
@@ -153,7 +153,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "ff62191b-b15b-40e1-a58d-ddc985972a53")
+		(uuid "db976cd1-6e2f-48c2-8394-a3dbc6c86bea")
 	)
 	(fp_line
 		(start -6.25 3.35)
@@ -163,7 +163,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "c0c8b037-53f8-42f8-92e0-ad52ead0ca3f")
+		(uuid "745d0c40-cf40-4a0f-8ac5-e9b6b41690cf")
 	)
 	(fp_line
 		(start 16.25 -1.35)
@@ -173,12 +173,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "13a51764-c92e-491b-af4e-0d836554b372")
+		(uuid "8a735e0d-d87a-482b-9eca-abcbd907a2c0")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 3.75 1 0)
 		(layer "F.Fab")
-		(uuid "a1e0aa12-55ba-49bf-99e7-08d8a652d336")
+		(uuid "6cd7f3fd-dd89-467b-9944-d9be4a6f1f14")
 		(effects
 			(font
 				(size 1 1)
@@ -188,19 +188,19 @@
 	)
 	(pad "1" thru_hole circle
 		(at 0 2.3)
-		(size 1.8 1.8)
+		(size 2 2)
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "f5abf785-e283-46a5-9c82-90944c2aea02")
+		(uuid "f47015dd-2d7b-4e85-a33d-70c0404342a9")
 	)
 	(pad "2" thru_hole circle
 		(at 10 0)
-		(size 1.8 1.8)
+		(size 2 2)
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "3325a042-057c-4df1-9d52-ed21cdb11ce6")
+		(uuid "9fc4c9d0-44e8-43bd-aa24-9570557c7cd3")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/LibrairiesExternes/RFID_3D/MOV-20D470KTR.STEP"
